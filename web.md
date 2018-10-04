@@ -7,17 +7,17 @@ Representational State Transfer: a set of design principles (not specific to the
 The Fielding Constraints are architectural constraints that a system must satisfy to be considered RESTful.
 
 ### What are the three primary Fielding constraints?
-1. **Client-Server**
+1. **Client-Server**  
    The network must be made up of clients and servers.
 
    *Client*: A computer that wants to interact with the resources stored on the server.
    *Server*: A computer that has resources of interest.
-2. **Stateless**
+2. **Stateless**  
    Each request is standalone, and servers and clients do not need to keep track of each other's state (or existence, once the request is complete).
-3. **Uniform Interface**
+3. **Uniform Interface**  
    Ensures that there is a common language between servers and clients that allows each part to be swapped out or modified without breaking the entire system.
 
-   Achieved through 4 sub-constraints (see below)
+   Achieved through 4 sub-constraints *(see below)*.
 
 ### What sub-constraints make up a Uniform Interface?
 1. Identification of Resources
