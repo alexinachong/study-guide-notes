@@ -10,7 +10,7 @@ The Fielding Constraints are architectural constraints that a system must satisf
 1. **Client-Server**  
    The network must be made up of clients and servers.
 
-   *Client*: A computer that wants to interact with the resources stored on the server.
+   *Client*: A computer that wants to interact with the resources stored on the server.  
    *Server*: A computer that has resources of interest.
 2. **Stateless**  
    Each request is standalone, and servers and clients do not need to keep track of each other's state (or existence, once the request is complete).
@@ -20,9 +20,12 @@ The Fielding Constraints are architectural constraints that a system must satisf
    Achieved through 4 sub-constraints *(see below)*.
 
 ### What sub-constraints make up a Uniform Interface?
-1. Identification of Resources
-2. Manipulation of Resources through Representations
-3. Self-Descriptive Messages
-4. Hypermedia
+1. **Identification of Resources**  
+   Each resource must be uniquely identified by a stable identifier (that is, one that does not change across interactions, nor when the state of the resource changes).
+
+   If a resource gets moved to another identifier, the server should give the client a response indicating that the request was bad, and give it a link to the new location of the resource. 
+2. **Manipulation of Resources through Representations**  
+3. **Self-Descriptive Messages**  
+4. **Hypermedia**  
 
 ### Walk through an arbitrary example of a RESTful request/response cycle, and describe what makes it RESTful.
