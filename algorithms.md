@@ -10,7 +10,7 @@
 
 ### What makes a graph a simple graph? What attributes would make it not simple?
 
-### What is the maximum number of edges in a directed simple graph? Undirected simple graph? Answer should be in terms of N
+### What is the maximum number of edges in a directed simple graph? Undirected simple graph? Answer should be in terms of `N`.
 
 ### Describe the levels of connectivity a graph can have (strongly connected, weakly connected).
 
