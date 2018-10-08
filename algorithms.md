@@ -17,3 +17,15 @@
 ### What are cycles?
 
 ### What are some naive ways we can store and traverse graphs? Be able to discuss time/space complexity of these approaches, and what issues we may face.
+
+## Graph Adjacency Matrix / List (W1D2)
+
+### Give a high level overview of an Adjacency Matrix.
+
+### If we were only concerned about time complexity, is an Adjacency Matrix efficient? Why/why not?
+
+### If we were only concerned about space complexity, is an Adjacency Matrix efficient? Why/why not?
+
+### Give a high level overview of an Adjacency List.
+
+### What benefits do we get from an Adjacency List?
