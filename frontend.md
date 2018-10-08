@@ -10,19 +10,39 @@ The `__proto__` attribute is an accessor property of `Object.prototype` object. 
 
 `__proto__` is the actual object that is used in the lookup chain to resolve methods, etc. `prototype` is the object that is used to build `__proto__` when you create an object with `new`. `prototype` is the blueprint for `__proto__`. ([`__proto__` vs `prototype`](https://stackoverflow.com/questions/9959727/proto-vs-prototype-in-javascript))
 
-### What happens when we do or don't explicity set an object's prototype?
+### What happens when we do or don't explicitly set an object's prototype?
 
 ### What is an object's default prototype?
 
 ### What are the valid values for an object's prototype?
 
+## JavaScript | Closures (W1D2)
+
+### What are the benefits of a Javascript closure?
+Closures allow data encapsulation.
+
+### Formally define a Javascript closure.
+A closure is the combination of a function and the lexical environment from which it was declared. Closure allows a function to access variables from an enclosing scope - environment - even after it leaves the scope in which it was declared.
+
+### Give an example of a closure.
+
+### What is data encapsulation?
+
 
 ## HTML5 | Media Queries (W1D1)
 
 ### Name 5 benefits of HTML5.
+1. Accessibility
+2. Video and Audio Support
+3. Game Development
+4. Legacy/Cross Browser Support
+5. Mobile Responsiveness
 
 ### What is `localStorage`? How might you use it?
+`localStorage` is a cross between cookies and a client-side database. It's better than cookies because it allows for storage across multiple windows, it has better security, and performance and data will persist even after the browser is closed. This allows you to load the user's previous application state.  
 
 ### Why are media queries useful?
+Media queries allow us to set conditions on our CSS so that pages display differently depending on what conditions are true about the viewing window.
 
 ### What is mobile-first design? Be as specific as possible.
+Mobile-first design is the practice of designing for mobile before designing for desktop or other devices. This is a popular practice because it is easier to scale your design up than scale down.
