@@ -34,7 +34,7 @@
 ## Recursion (W2D1)
 
 ### What is a base case in recursion? Why do we need one? Do we always need one?
-
+The base case is the smallest or simplest case that we could encounter in our problem. As we dive deeper and deeper into our call stack, the base case acts as a stopping point or limit for our function, so that our code will eventually return a result (to slingshot back up the call stack) and not enter an infinite loop. We always need a base case in our recursive functions to avoid a stack overflow error.
 
 ### What exactly is a Stack Overflow?
 
