@@ -29,3 +29,13 @@
 ### Give a high level overview of an Adjacency List.
 
 ### What benefits do we get from an Adjacency List?
+
+
+## Recursion (W2D1)
+
+### What is a base case in recursion? Why do we need one? Do we always need one?
+
+
+### What exactly is a Stack Overflow?
+
+### Describe direct and indirect recursion.
