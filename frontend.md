@@ -37,7 +37,7 @@ A closure is the combination of a function and the lexical environment from whic
 ### Discuss 4 differences between ES5 and ES6 that you find important.
 
 1.  ES5 only had function-level scope (i.e., wrapping code in functions to create scope), whereas ES6 has block-level scope (i.e., using curly braces to create scope) when we use `let` or `const`, instead of `var`. This prevents variable-hoisting outside of the given scope.
-2.
+2.  In ES5, `this` can vary based on where and how it is called. ES6 supports a lexical `this` (by way of a fat arrow function), which forces the variable `this` to always point to the object within which it is physically located.
 3.
 4.
 
