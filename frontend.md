@@ -32,7 +32,19 @@ A closure is the combination of a function and the lexical environment from whic
 
 ### What is data encapsulation?
 
-## JavaScript | ES5 vs ES6
+## JavaScript | Event Delegation (W2D4)
+
+### What is event delegation?
+
+Event delegation is an event handling pattern in which we assign a single handler to a common ancestor, rather than an handler assigned to each individual child element. This is useful when we have a lot of elements that are to be handled in a similar way. This works because of capturing and bubbling.
+
+The algorithm:
+
+1.  Put a single handler on the container.
+2.  In the handler – check the source element `event.target`.
+3.  If the event happened inside an element that interests us, then handle the event.
+
+## JavaScript | ES5 vs ES6 (W2D5)
 
 ### Discuss 4 differences between ES5 and ES6 that you find important.
 
