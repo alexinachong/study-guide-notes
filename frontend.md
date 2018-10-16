@@ -32,6 +32,24 @@ A closure is the combination of a function and the lexical environment from whic
 
 ### What is data encapsulation?
 
+## JavaScript | Hoisting & Pure Functions (W2D1)
+
+### In which phase does hoisting occur?
+
+### What is the difference between function hoisting and variable hoisting?
+
+### What is a state tree in the context of Redux?
+
+### Why don't we want to modify (i.e. mutate) our redux state?
+
+### What is a pure function? What is an impure function?
+
+Pure functions are functions whose returned value depends solely on the values of their arguments. Given the same set of arguments, they will return the same value - they are deterministic. Pure functions do not modify the values passed to them.
+
+Impure functions may call the database or the network, have side effects, operate on the DOM, or override the values that you pass to them.
+
+### Describe in detail what a redux reducer is. What makes it a pure function?
+
 ## JavaScript | Event Delegation (W2D4)
 
 ### What is event delegation?
